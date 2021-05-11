@@ -1,5 +1,23 @@
+.rowspacing{
+  margin-bottom: 65px;
+  padding-top: 30px;
+  border-bottom: 1px solid black;
+  padding-bottom: 17px;
+  align-items: center;
+}
+.homepage{
+  background-image: url(./homepage.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 640px;
+  color: whitesmoke;
+}
 h2{
   margin-left: 400px;
+}
+.columnspacing{
+  padding: 2px;
 }
 .links{
   margin-left: 40px;
