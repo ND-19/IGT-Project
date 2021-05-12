@@ -7,7 +7,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  NavLink
 } from "react-router-dom";
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
     <Navbar.Brand href="/"><img src={logo} style={{width:"4vw"}}></img> COVID-19 Analysis</Navbar.Brand>
     <h2 className="text-white">IGT Project</h2>
     <Nav className="ml-auto">
-      <Nav.Link href="/cases" className="text-white links">Analysis of Cases</Nav.Link>
-      <Nav.Link href="/vaccination" className="text-white links">Analysis of Vaccinations</Nav.Link>
+      <NavLink to="/cases" className="text-white links" activeStyle={{borderBottom:"2px solid black"}}>Analysis of Cases</NavLink>
+      <NavLink to="/vaccination" className="text-white links" activeStyle={{borderBottom:"2px solid black"}}>Analysis of Vaccinations</NavLink>
     </Nav>
 
   </Navbar>
