@@ -1,5 +1,5 @@
 import logo from './SARS-CoV-2.png';
-import img1 from './COVID-19_Virus.png';
+import vaccine from './vaccine.jpg';
 import './App.css'; 
 import {Navbar, Nav, Container, Row, Col} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -27,25 +27,25 @@ function App() {
       <Route exact path="/">
         <Container fluid className="homepage">
           <Row className="rowspacing">
-            <Col md={{span:8,order:"first",offset:1}} className="bg-secondary columnspacing">
+            <Col md={{span:8,order:"first",offset:1}} className="columnspacing">
             Coronavirus disease 2019 (COVID-19) is defined as illness caused by a novel coronavirus called severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2; formerly called 2019-nCoV), which was first identified amid an outbreak of respiratory illness cases in Wuhan City, Hubei Province, China. [1] It was initially reported to the World Health Organization (WHO) on December 31, 2019. On January 30, 2020, the WHO declared the COVID-19 outbreak a global health emergency.
             </Col>
-            <Col md={{span:2,order:"last",offset:1}}><img src={logo} style={{width:"8vw"}}></img></Col>
+            <Col md={{span:2,order:"last",offset:1}}></Col>
           </Row>
           <Row className="rowspacing">
-            <Col md={{span:8,order:"last"}} className="bg-secondary columnspacing">
+            <Col md={{span:8,order:"first",offset:1}} className="columnspacing">
          
 The world is in the midst of a COVID-19 pandemic. As WHO and partners work together on the response -- tracking the pandemic, advising on critical interventions, distributing vital medical supplies to those in need--- they are racing to develop and deploy safe and effective vaccines. 
 
 Vaccines save millions of lives each year. Vaccines work by training and preparing the body’s natural defences – the immune system – to recognize and fight off the viruses and bacteria they target. After vaccination, if the body is later exposed to those disease-causing germs, the body is immediately ready to destroy them, preventing illness.
             </Col>
-            <Col md={{span:2,order:"first",offset:1}} ><img src={logo} style={{width:"8vw"}}></img></Col>
+            <Col md={{span:2,order:"last",offset:1}} ></Col>
           </Row>
           <Row className="rowspacing">
-            <Col md={{span:8,order:"first",offset:1}} className="bg-secondary columnspacing">
+            <Col md={{span:8,order:"first",offset:1}} className="columnspacing">
             These COVID-19 dashboards present official daily counts of COVID-19 cases, deaths and vaccine utilisation reported by countries, territories and areas. Through this dashboard, we aim to provide a frequently updated data visualization, data dissemination and data exploration resource, while linking users to other useful and informative resources.
             </Col>
-            <Col md={{span:2,order:"last",offset:1}}><img src={logo} style={{width:"8vw"}}></img></Col>
+            <Col md={{span:2,order:"last",offset:1}}></Col>
           </Row>
         </Container>
 
